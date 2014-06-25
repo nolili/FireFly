@@ -11,7 +11,7 @@ import CoreLocation
 let beaconUuid = NSUUID(UUIDString: "31840078-6F1B-448B-A6A2-CADA828E287D")
 class ViewController: UIViewController ,CLLocationManagerDelegate{
     
-    // var locationManager:UnwrappedOptional<CLLocationManager>
+    // var locationManager:ImplicitlyUnwrappedOptionalType<CLLocationManager>
     // var locationManager:Optional<CLLocationManager> ...nilがはいってるかも？型
     var locationManager:CLLocationManager
     
