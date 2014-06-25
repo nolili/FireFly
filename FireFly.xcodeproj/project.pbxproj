@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD3AEA2195AD087000CD484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3AEA1195AD087000CD484 /* AppDelegate.swift */; };
+		8CD3AEA4195AD087000CD484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3AEA3195AD087000CD484 /* ViewController.swift */; };
+		8CD3AEA7195AD087000CD484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3AEA5195AD087000CD484 /* Main.storyboard */; };
+		8CD3AEA9195AD087000CD484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3AEA8195AD087000CD484 /* Images.xcassets */; };
+		8CD3AEB5195AD087000CD484 /* FireFlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3AEB4195AD087000CD484 /* FireFlyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD3AEAF195AD087000CD484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD3AE94195AD087000CD484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD3AE9B195AD087000CD484;
+			remoteInfo = FireFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CD3AE9C195AD087000CD484 /* FireFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD3AEA0195AD087000CD484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD3AEA1195AD087000CD484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD3AEA3195AD087000CD484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CD3AEA6195AD087000CD484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD3AEA8195AD087000CD484 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CD3AEAE195AD087000CD484 /* FireFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD3AEB3195AD087000CD484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD3AEB4195AD087000CD484 /* FireFlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireFlyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD3AE99195AD087000CD484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD3AEAB195AD087000CD484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD3AE93195AD087000CD484 = {
+			isa = PBXGroup;
+			children = (
+				8CD3AE9E195AD087000CD484 /* FireFly */,
+				8CD3AEB1195AD087000CD484 /* FireFlyTests */,
+				8CD3AE9D195AD087000CD484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD3AE9D195AD087000CD484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3AE9C195AD087000CD484 /* FireFly.app */,
+				8CD3AEAE195AD087000CD484 /* FireFlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD3AE9E195AD087000CD484 /* FireFly */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3AEA1195AD087000CD484 /* AppDelegate.swift */,
+				8CD3AEA3195AD087000CD484 /* ViewController.swift */,
+				8CD3AEA5195AD087000CD484 /* Main.storyboard */,
+				8CD3AEA8195AD087000CD484 /* Images.xcassets */,
+				8CD3AE9F195AD087000CD484 /* Supporting Files */,
+			);
+			path = FireFly;
+			sourceTree = "<group>";
+		};
+		8CD3AE9F195AD087000CD484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3AEA0195AD087000CD484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CD3AEB1195AD087000CD484 /* FireFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3AEB4195AD087000CD484 /* FireFlyTests.swift */,
+				8CD3AEB2195AD087000CD484 /* Supporting Files */,
+			);
+			path = FireFlyTests;
+			sourceTree = "<group>";
+		};
+		8CD3AEB2195AD087000CD484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3AEB3195AD087000CD484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD3AE9B195AD087000CD484 /* FireFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD3AEB8195AD087000CD484 /* Build configuration list for PBXNativeTarget "FireFly" */;
+			buildPhases = (
+				8CD3AE98195AD087000CD484 /* Sources */,
+				8CD3AE99195AD087000CD484 /* Frameworks */,
+				8CD3AE9A195AD087000CD484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireFly;
+			productName = FireFly;
+			productReference = 8CD3AE9C195AD087000CD484 /* FireFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD3AEAD195AD087000CD484 /* FireFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD3AEBB195AD087000CD484 /* Build configuration list for PBXNativeTarget "FireFlyTests" */;
+			buildPhases = (
+				8CD3AEAA195AD087000CD484 /* Sources */,
+				8CD3AEAB195AD087000CD484 /* Frameworks */,
+				8CD3AEAC195AD087000CD484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD3AEB0195AD087000CD484 /* PBXTargetDependency */,
+			);
+			name = FireFlyTests;
+			productName = FireFlyTests;
+			productReference = 8CD3AEAE195AD087000CD484 /* FireFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD3AE94195AD087000CD484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					8CD3AE9B195AD087000CD484 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8CD3AEAD195AD087000CD484 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8CD3AE9B195AD087000CD484;
+					};
+				};
+			};
+			buildConfigurationList = 8CD3AE97195AD087000CD484 /* Build configuration list for PBXProject "FireFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD3AE93195AD087000CD484;
+			productRefGroup = 8CD3AE9D195AD087000CD484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD3AE9B195AD087000CD484 /* FireFly */,
+				8CD3AEAD195AD087000CD484 /* FireFlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD3AE9A195AD087000CD484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD3AEA7195AD087000CD484 /* Main.storyboard in Resources */,
+				8CD3AEA9195AD087000CD484 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD3AEAC195AD087000CD484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD3AE98195AD087000CD484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD3AEA4195AD087000CD484 /* ViewController.swift in Sources */,
+				8CD3AEA2195AD087000CD484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD3AEAA195AD087000CD484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD3AEB5195AD087000CD484 /* FireFlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD3AEB0195AD087000CD484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD3AE9B195AD087000CD484 /* FireFly */;
+			targetProxy = 8CD3AEAF195AD087000CD484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD3AEA5195AD087000CD484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD3AEA6195AD087000CD484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD3AEB6195AD087000CD484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD3AEB7195AD087000CD484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD3AEB9195AD087000CD484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FireFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD3AEBA195AD087000CD484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FireFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CD3AEBC195AD087000CD484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireFly.app/FireFly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FireFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8CD3AEBD195AD087000CD484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireFly.app/FireFly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FireFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD3AE97195AD087000CD484 /* Build configuration list for PBXProject "FireFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD3AEB6195AD087000CD484 /* Debug */,
+				8CD3AEB7195AD087000CD484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD3AEB8195AD087000CD484 /* Build configuration list for PBXNativeTarget "FireFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD3AEB9195AD087000CD484 /* Debug */,
+				8CD3AEBA195AD087000CD484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CD3AEBB195AD087000CD484 /* Build configuration list for PBXNativeTarget "FireFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD3AEBC195AD087000CD484 /* Debug */,
+				8CD3AEBD195AD087000CD484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD3AE94195AD087000CD484 /* Project object */;
+}
