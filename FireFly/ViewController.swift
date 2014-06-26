@@ -38,13 +38,27 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
     }
     
     func locationManager(manager: CLLocationManager!, didRangeBeacons beacons: AnyObject[]!, inRegion region: CLBeaconRegion!){
-        for  beacon in beacons as CLBeacon[]{
+        
+        let maxDistance:CGFloat = 1.0
+        var proximity:CGFloat = 0.0
+        
+        let beaconArray = beacons as CLBeacon[]
+        for beacon in beacons as CLBeacon[]{
             println(beacon)
-            
-            UIScreen.mainScreen().brightness = CGFloat(beacon.accuracy);
+        }
+        
+        if (beacons.count > 0){
+            let nearestBeacon = beaconArray[0]
+            if (nearestBeacon.proximity != .Unknown){
+                proximity = CGFloat(nearestBeacon.accuracy)
+                if (proximity > maxDistance){
+                    proximity = maxDistance;
+                }
+                let brightness:CGFloat = 1.0 - (proximity / maxDistance)
+                println(brightness)
+                UIScreen.mainScreen().brightness = brightness
+            }
         }
     }
-
-
 }
 
