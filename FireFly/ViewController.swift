@@ -41,7 +41,7 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         for  beacon in beacons as CLBeacon[]{
             println(beacon)
             
-            UIScreen.mainScreen().brightness = Float(beacon.accuracy);
+            UIScreen.mainScreen().brightness = CGFloat(beacon.accuracy);
         }
     }
 
